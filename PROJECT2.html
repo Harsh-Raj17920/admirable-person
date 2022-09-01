@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2</title>
+    <style>
+        body{
+            background-color: yellow;
+             
+        }
+        .stid{
+            text-align: center;
+            color: red;
+        }
+        .green{
+            color: darkgreen;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="stid">STUDENT REGISTRATION FORM </h1>
+    <h2 class="green">PERSONAL DETAILS</h2>
+    <form action="backend.php">
+        <div>
+            NAME: <input type="text" name="myname">
+            <br>
+            <br>
+            <br>
+        </div>
+        <div>
+            EMAIL: <input type="email" name="myemail">
+            <br>
+            <br>
+        </div>
+        <div>
+            AGE: <input type="number" name="myage">
+            <br>
+            <br>
+            <br>
+        </div>
+        <h2 class="green" > ACADEMIC DETAILS</h2>
+        <h3 class="stid"> DEPARTMENT </h3>
+        <input type="radio" name="myname"> CSE<input type="radio" name="myname"> ECE <input type="radio" name="myname"> 
+        EI <input type="radio" name="myname"> EE <input type="radio" name="myname"> ME<input type="radio" name="myname">
+        CH<input type="radio" name="myname"> MM<input type="radio" name="myname"> MN<input type="radio" name="myname">
+        CR<input type="radio" name="myname"> FP<input type="radio" name="myname"> BT<input type="radio" name="myname">
+        BM<input type="radio" name="myname">PH <input type="radio" name="myname">CY<input type="radio" name="myname">
+        LS<input type="radio" name="myname"> MA<input type="radio" name="myname">
+        <h3 class="stid"> YEAR OF ADMISSION</h3>
+        <input type="radio" year="myyear"> 2018  <input type="radio" year="myyear"> 2019  <input type="radio" year="myyear">
+        2020 <input type="radio" year="myyear"> 2021 <input type="radio" year="myyear">
+        <h2 class="green">TECHNICAL DETAILS</h2>
+        <h3 class="stid">LANGUAGES LEARNT</h3>
+        JAVA <input type="checkbox"> C <input type="checkbox"> C++<input type="checkbox"> PYTHON<input type="checkbox">
+        SQL<input type="checkbox">PHP<input type="checkbox">SQL INJECT<input type="checkbox"> JAVASCRIPT<input type="checkbox">
+
+        <div>
+            <input type="reset" value="RESET NOW">
+            <br>
+        </div>
+        <div>
+            <br>
+            <br>
+            <input type="submit" value="SUBMIT NOW">
+        </div>
+    </form>
+</body>
+</html>
